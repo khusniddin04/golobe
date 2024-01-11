@@ -1,0 +1,61 @@
+.cities {
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+.cities__wrapper {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.citiesCard {
+    border-radius: 12px;
+    padding: 286px 24px 24px 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.citiesCard__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+.citiesCard h3 {
+    color: var(--Neutrals, #FFF);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.citiesCard h4 {
+    color: var(--Neutrals, #FFF);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.citiesCard p {
+    color: var(--Neutrals, #FFF);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.citiesCard button {
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 4px;
+    background: var(--Mint-Green, #8DD3BB);
+    margin-top: 16px;
+    height: 48px;
+    color: var(--Blackish-Green, #121);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

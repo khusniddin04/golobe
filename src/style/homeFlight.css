@@ -1,0 +1,10 @@
+.homeflight {
+    margin-top: 260px;
+    margin-bottom: 80px;
+}
+
+.homeFlight__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}

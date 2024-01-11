@@ -1,0 +1,13 @@
+.flightMap {
+    margin-bottom: 180px;
+}
+
+.flightMap__img {
+    height: 500px;
+    width: 100vw;
+   
+}
+.flightMap__img img {
+    width: 100%;
+    height: 100%;
+} 

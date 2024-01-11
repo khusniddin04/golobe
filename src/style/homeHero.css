@@ -1,0 +1,44 @@
+.homeHero {
+    background-image: url("../images/herobg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 599px;
+    position: relative;
+}
+.blur {
+    border-radius: 0px 0px 24px 24px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%);
+    height: 581px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.homeHero h3 {
+    color: var(--Neutrals, #FFF);
+    text-align: center;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 4px;
+}
+.homeHero h1 {
+    color: var(--Neutrals, #FFF);
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.homeHero p {
+    color: var(--Neutrals, #FFF);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

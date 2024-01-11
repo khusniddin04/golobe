@@ -1,0 +1,24 @@
+.hero {
+    background-image: url('../images/bg_cleanup.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 174px 120px 126px;
+    margin-bottom: 280px;
+    height: 537px;
+    position: relative;
+}
+.hero h2 {
+    width: 440px;
+    color: var(--Neutrals, #FFF);
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.hero p {
+    color: var(--Neutrals, #FFF);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

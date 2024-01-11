@@ -1,0 +1,57 @@
+.sliderCard {
+    cursor: pointer;
+    padding: 24px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background: var(--Neutrals, #FFF);
+    box-shadow: 24px 24px 1px rgba(141, 211, 187, 0.40);
+    position: relative;
+    z-index: 7;
+}
+.sliderCard p {
+    overflow: hidden;
+    color: var(--Blackish-Green, #121);
+    opacity: 0.5;
+    font-size: 14px;
+    font-weight: 500;
+    height: 37px;
+    margin-bottom: 46px;
+}
+.sliderCard h3 {
+    margin-bottom: 16px;
+    width: 377px;
+    color: var(--Blackish-Green, #121);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.sliderCard h4 {
+    color: var(--Blackish-Green, #121);
+    margin-bottom: 4px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.sliderCard h5 {
+    margin-bottom: 12px;
+    color: var(--Blackish-Green, #121);
+    opacity: 0.5;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.sliderCard img {
+    margin-top: 40px;
+}
+/* .sliderback {
+    position: absolute;
+    width: 425px;
+    height: 586px;
+    border-radius: 20px;
+    background: rgba(141, 211, 187, 0.40);
+    z-index: 6;
+} */
